@@ -1,12 +1,15 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
+
 import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
+
 import SketchStream from "@/public/SketchStream.png";
 import CodeSnipper from "@/public/CodeSnipper.png";
 import VelocityXD from "@/public/VelocityXD.png";
 import QuantumConsole from "@/public/QuantumConsole.png";
 import CulinaryExplorer from "@/public/CulinaryExplorer.png";
+
+import { CgWorkAlt } from "react-icons/cg";
+import { LuGraduationCap } from "react-icons/lu";
 
 export const links = [
   {
