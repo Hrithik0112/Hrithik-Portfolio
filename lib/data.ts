@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import SketchStream from "@/public/corpcomment.png";
-import CodeSnipper from "@/public/rmtdev.png";
-import VelocityXD from "@/public/wordanalytics.png";
+import SketchStream from "@/public/SketchStream.png";
+import CodeSnipper from "@/public/CodeSnipper.png";
+import VelocityXD from "@/public/VelocityXD.png";
 import QuantumConsole from "@/public/QuantumConsole.png";
 import CulinaryExplorer from "@/public/CulinaryExplorer.png";
 
