@@ -8,8 +8,8 @@ import VelocityXD from "@/public/VelocityXD.png";
 import QuantumConsole from "@/public/QuantumConsole.png";
 import CulinaryExplorer from "@/public/CulinaryExplorer.png";
 
-import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
+import { RiOpenSourceFill } from "react-icons/ri";
 
 export const links = [
   {
@@ -40,28 +40,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "MERN Stack bootcamp",
+    location: "India",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Completed a comprehensive 6-month web development bootcamp where I gained hands-on experience in frontend and backend technologies.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "Jan 2023 - July 2023",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Hacktoberfest",
+    location: "Global",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "Participated in and successfully completed Hacktoberfest, contributing to open source projects and enhancing collaboration within the developer community.",
+    icon: React.createElement(RiOpenSourceFill),
+    date: "October - 2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Full Stack Learning Managemnet system",
+    location: "india",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Currently developing a full-stack learning management system where users can buy courses, students can enroll in courses, and a full-stack authentication system. Additionally, implementing video uploads to a CDN for seamless content delivery",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023 - present",
   },
 ] as const;
 
@@ -71,30 +71,40 @@ export const projectsData = [
     description: "A docs and diagrams platform for engineering teams , consider it as Eraser.io ",
     tags: ["React", "Next.js", "Tailwind ", "TypeScript", "Kinde Auth", "Convex"],
     imageUrl: SketchStream,
+    live: "https://sketch-stream-io.vercel.app/",
+    github: "https://github.com/Hrithik0112/SketchStream.io",
   },
   {
-    title: "Code Snipper",
+    title: "CodeSnipper",
     description: "A feature-rich code snippet sharing tool",
     tags: ["React", "Tailwind", " Shadcn UI", "Zustand", "Highlight.js"],
     imageUrl: CodeSnipper,
+    live: "https://code-sniper.vercel.app/",
+    github: "https://github.com/Hrithik0112/Code-Sniper",
   },
   {
-    title: "Velocity-XD",
+    title: "VelocityXD",
     description: "A minimalistic speed typing Practice application",
     tags: ["React", "Tailwind ", "TypeScript", "Framer Motion"],
     imageUrl: VelocityXD,
+    live: "https://velocity-xd.vercel.app/",
+    github: "https://github.com/Hrithik0112/Velocity-XD",
   },
   {
-    title: "Culinary Explorer",
+    title: "CulinaryExplorer",
     description: "Find Top Restaurants near you",
     tags: ["React", "Next.js", "Tailwind ", "Google Maps API", "Google Places API"],
     imageUrl: CulinaryExplorer,
+    live: "https://culinary-explorer-eta.vercel.app/",
+    github: "https://github.com/Hrithik0112/Culinary-Explorer",
   },
   {
-    title: "Quantum Console",
+    title: "QuantumConsole",
     description: "A powerfull feature-rich admin dashboard ",
     tags: ["React", "Material UI", "Zustand", " E-charts"],
     imageUrl: QuantumConsole,
+    live: "https://quantum-console.vercel.app/dashboard",
+    github: "https://github.com/Hrithik0112/Quantum-Console",
   },
 ] as const;
 
