@@ -63,6 +63,15 @@ export const experiencesData = [
     icon: React.createElement(FaReact),
     date: "2023 - present",
   },
+  {
+    title: "Founding Frontend Intern @GyanGrove",
+    location: "Bangalore, IN",
+    description:
+      "As the Founding Frontend Intern at a stealth startup in education, I am developing a cross-platform app using React Native and Expo. Collaborating with product and UI/UX teams, I focus on designing intuitive interfaces and optimizing performance, enhancing my frontend development skills and driving innovation in educational technology.",
+    icon: React.createElement(FaReact),
+    date: "April ' 24 - present",
+  },
+
 ] as const;
 
 export const projectsData = [
