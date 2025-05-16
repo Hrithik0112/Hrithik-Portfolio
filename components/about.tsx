@@ -19,30 +19,15 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-      <div className="mb-3">
+      <div className="mb-6">
         <p>
-          I ignited my passion for programming during my high school years, laying the foundation
-          for my journey into the world of software development. Specializing in frontend
-          technologies, particularly React, became my forte during my B.Tech in Computer Science at
-          Techno International Batanagar. Projects like Code-Sniper and Velocity-XD showcase my
-          adeptness in crafting elegant and intuitive interfaces with tools like Tailwind CSS and
-          TypeScript.
-          <br />
-          <br />
-          Transitioning into a full-stack enthusiast, I explored the intricacies of the MERN stack,
-          evident in projects like Culinary Explorer and SketchStream.io. These ventures underscore
-          my ability to seamlessly integrate frontend and backend technologies for dynamic web
-          applications. Currently, I'm delving deeper into animations and sharpening my skills in
-          TypeScript, fueled by a commitment to continuous learning.
+          I am particularly inclined toward building products that blend technical excellence with great design. I am always exploring new technologies—currently focusing on advanced animations, state management, and performance optimization in React Native and Expo. My commitment to continuous learning drives me to stay updated with industry trends and best practices.
         </p>
       </div>
 
       <div>
         <p>
-          Beyond coding, I prioritize quality time with family and indulge in occasional gaming
-          sessions for balance. With a strong foundation in JavaScript and TypeScript, coupled with
-          expertise in frameworks like React and Next.js, I'm poised to tackle new challenges and
-          make meaningful contributions to the dynamic landscape of software development.
+          Outside of coding, I value work-life balance and enjoy spending time with family and gaming. I am motivated by challenges that require creative solutions and am eager to contribute to impactful projects in the ever-evolving field of software development.
         </p>
       </div>
     </motion.section>

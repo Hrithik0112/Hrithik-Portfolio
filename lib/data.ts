@@ -69,9 +69,16 @@ export const experiencesData = [
     description:
       "As the Founding Frontend Intern at a stealth startup in education, I am developing a cross-platform app using React Native and Expo. Collaborating with product and UI/UX teams, I focus on designing intuitive interfaces and optimizing performance, enhancing my frontend development skills and driving innovation in educational technology.",
     icon: React.createElement(FaReact),
-    date: "April ' 24 - present",
+    date: "April ' 24 - October ' 24",
   },
-
+  {
+    title: "Founding Frontend Engineer @GyanGrove",
+    location: "Bangalore, IN",
+    description:
+      "As the Founding Frontend Engineer at a stealth education startup, I lead the design and development of a cross-platform application using React Native and Expo. My responsibilities include architecting scalable frontend solutions, implementing robust state management, and ensuring seamless integration with backend services. I collaborate closely with product, UI/UX, and backend teams to deliver high-quality features, optimize performance, and maintain code quality through best practices and code reviews. My role drives innovation and shapes the technical direction of our educational technology platform.",
+    icon: React.createElement(FaReact),
+    date: "October ' 24 - present",
+  },
 ] as const;
 
 export const projectsData = [
@@ -118,16 +125,18 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
   "JavaScript",
   "TypeScript",
   "React",
+  "React Native",
+  "Expo",
   "Next.js",
+  "Tailwind",
+  "HTML",
+  "CSS",
   "Node.js",
   "Git",
   "Github",
-  "Tailwind",
   "Shadcn UI",
   "Material UI",
   "Prisma",
